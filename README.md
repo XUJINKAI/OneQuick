@@ -1,5 +1,5 @@
 # OneQuick.net
-bin download, issues for .net version
+Issues
 
-Site: http://onequick.org/
-
+---
+http://onequick.org/
