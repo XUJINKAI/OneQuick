@@ -1,9 +1,5 @@
-# OneQuick.net
+# OneQuick
 
-[![Discord](https://img.shields.io/badge/chat-discord-%23748bd7.svg)](https://discord.gg/YJ4Z9Cu)
-[![HitCount](http://hits.dwyl.io/xujinkai/onequick/feedback.svg)](http://hits.dwyl.io/xujinkai/onequick/feedback)
+Windows热键工具
 
----
-http://onequick.org/
-
-Library https://github.com/XUJINKAI/XJKdotNetLibrary
+官网: http://onequick.org/
