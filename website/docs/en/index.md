@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "OneQuick"
-  text: "OneQuick Hotkey Tool"
+  text: "Windows Hotkey Tool"
   tagline: My great project tagline
   actions:
     - theme: brand
