@@ -2,7 +2,7 @@ import { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
 import { common } from './common'
 
 export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
-    description: "Windows Hotkey Tool, Windows热键工具",
+    description: "Windows Hotkey Tool",
     themeConfig: {
         nav: [
             { text: 'Docs', link: '/getting-started' },

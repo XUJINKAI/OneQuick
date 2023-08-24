@@ -5,7 +5,7 @@ import { enConfig } from './locale/en'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-CN',
-  srcDir: 'docs',
+  srcDir: 'src',
   cleanUrls: true,
   title: "OneQuick",
   head: [
@@ -19,16 +19,16 @@ export default defineConfig({
       lang: 'zh-CN',
       ...zhConfig,
     },
-    en: {
-      label: 'English',
-      lang: 'en-US',
-      ...enConfig,
-    },
+    // en: {
+    //   label: 'English',
+    //   lang: 'en-US',
+    //   ...enConfig,
+    // },
   },
   themeConfig: {
     logo: '/logo.svg',
     socialLinks: [
-        { icon: 'github', link: 'https://github.com/OneQuick/Feedback' },
+      { icon: 'github', link: 'https://github.com/OneQuick/Feedback' },
     ],
     docFooter: {
       prev: false,

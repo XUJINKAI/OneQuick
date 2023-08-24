@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 微软商店下载
-      link: https://www.microsoft.com/zh-cn/p/onequick/9pfn5k6qxt46?activetab=pivot:overviewtab
+      link: https://apps.microsoft.com/store/detail/9pfn5k6qxt46
     - theme: alt
       text: 文档
       link: /getting-started
