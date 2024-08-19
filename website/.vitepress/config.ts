@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { zhConfig } from './locale/zh'
 import { enConfig } from './locale/en'
+import { common } from './locale/common'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -19,23 +20,23 @@ export default defineConfig({
       lang: 'zh-CN',
       ...zhConfig,
     },
-    // en: {
-    //   label: 'English',
-    //   lang: 'en-US',
-    //   ...enConfig,
-    // },
+    en: {
+      label: 'English',
+      lang: 'en-US',
+      ...enConfig,
+    },
   },
   themeConfig: {
     logo: '/logo.svg',
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/OneQuick/Feedback' },
+      { icon: 'github', link: common.url_github },
     ],
     docFooter: {
       prev: false,
       next: false,
     },
     footer: {
-      copyright: 'Copyright © 2016-2023 OneQuick.org'
+      copyright: 'Copyright © 2016-2024 OneQuick.org'
     },
   },
 })

@@ -5,21 +5,24 @@ layout: home
 hero:
   name: "OneQuick"
   text: "Windows Hotkey Tool"
-  tagline: My great project tagline
+  tagline: Convenient and Efficient, Say Goodbye to Tediousness
+  image:
+    src: /img/feature/screen-volume.gif
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Microsoft Store
+      link: https://apps.microsoft.com/store/detail/9pfn5k6qxt46
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Feedback
+      link: /en/feedback
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Multi-Hotkeys
+    details: "With many operations: execute commands, send hotkeys, pin windows, open app folder..."
+  - title: Screen Border
+    details: "Flick the mouse to the top left corner of the screen: Scroll Wheel = adjust Volume."
+  - title: Copy Search
+    details: "Say goodbye to opening URLs, copying and pasting. One-click to reach search results."
+  - title: Phrase Output
+    details: "Output phrases with one click, simplifying tedious operations."
 ---
-
