@@ -13,8 +13,8 @@ hero:
       text: Microsoft Store
       link: https://apps.microsoft.com/store/detail/9pfn5k6qxt46
     - theme: alt
-      text: Feedback
-      link: /en/feedback
+      text: Docs
+      link: /en/docs
 
 features:
   - title: Multi-Hotkeys

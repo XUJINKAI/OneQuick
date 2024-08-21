@@ -14,4 +14,4 @@ Any questions, suggestions, or opinions are welcome to be raised in GitHub Issue
 
 If there are bugs, it is best to provide the steps to reproduce them and relevant environment information.
 
-GitHub Issues address: <https://github.com/OneQuick/Feedback/issues>
+GitHub Issues address: <https://github.com/XUJINKAI/OneQuick/issues>

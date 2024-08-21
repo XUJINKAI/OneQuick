@@ -1,4 +1,3 @@
-
 # 开始
 
 欢迎使用 OneQuick 热键工具。
@@ -15,4 +14,4 @@ OneQuick有免费版本，已经可以满足日常使用，提高效率。
 
 如果有BUG，最好提供复现的步骤，以及相关环境信息。
 
-GitHub Issues 地址: <https://github.com/OneQuick/Feedback/issues>
+GitHub Issues 地址: <https://github.com/XUJINKAI/OneQuick/issues>

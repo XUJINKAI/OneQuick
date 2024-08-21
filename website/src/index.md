@@ -13,8 +13,8 @@ hero:
       text: 微软商店
       link: https://apps.microsoft.com/store/detail/9pfn5k6qxt46
     - theme: alt
-      text: 反馈
-      link: /feedback
+      text: 文档
+      link: /docs
 
 features:
   - title: 多步热键
