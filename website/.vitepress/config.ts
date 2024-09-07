@@ -9,6 +9,9 @@ export default defineConfig({
   srcDir: 'src',
   cleanUrls: true,
   title: "OneQuick",
+  sitemap: {
+    hostname: 'https://onequick.org',
+  },
   head: [
     ['link', { rel: 'icon', href: '/logo.svg' }],
     ['meta', { name: 'keywords', content: 'OneQuick, Windows, Hotkey Tool, 热键工具' }],
