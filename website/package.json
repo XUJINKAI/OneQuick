@@ -7,5 +7,8 @@
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview"
+  },
+  "dependencies": {
+    "medium-zoom": "^1.1.0"
   }
 }

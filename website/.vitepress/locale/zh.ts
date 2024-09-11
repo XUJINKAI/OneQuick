@@ -15,12 +15,12 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
                 items: [
                     { text: '欢迎', link: '/docs' },
                     { text: '专业版', link: '/pro' },
+                    { text: '更新日志', link: '/change-log' },
                 ],
             },
             {
                 text: '关于',
                 items: [
-                    { text: '更新日志', link: '/change-log' },
                     { text: '隐私政策', link: '/privacy-policy' },
                     { text: '感谢', link: '/thanks' },
                 ],
