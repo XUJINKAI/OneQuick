@@ -1,5 +1,5 @@
 import { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
-import { common } from './common'
+import { common } from '../common'
 
 export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     description: "Windows Hotkey Tool",

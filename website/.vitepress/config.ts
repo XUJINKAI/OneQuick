@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
+import { common } from './common'
 import { zhConfig } from './locale/zh'
 import { enConfig } from './locale/en'
-import { common } from './locale/common'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -32,7 +32,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.svg',
     socialLinks: [
-      { icon: 'github', link: common.url_github },
+      { icon: 'github', link: common.url_github_issues },
     ],
     docFooter: {
       prev: false,

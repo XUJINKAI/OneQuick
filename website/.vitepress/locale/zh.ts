@@ -1,5 +1,5 @@
 import { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
-import { common } from './common'
+import { common } from '../common'
 
 export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     description: "Windows热键工具",
