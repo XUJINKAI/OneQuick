@@ -38,10 +38,10 @@ import { common } from '../.vitepress/common';
   <div class="feature reverse">
     <div class="feature-content">
       <h3>如何快速搜索一段文本？</h3>
-      <p>复制文字，打开想搜索的网站，在搜索框中粘贴，最后回车...</p>
+      <p>以前：选中文字后，复制文字，打开浏览器中想搜索的网站，在搜索框中粘贴，最后回车...</p>
       <p>如果想在多个网站同时搜索，还得重复以上步骤！</p>
-      <p class="emphasis">选中文字后，按两下Ctrl-C （或Ctrl-C-C），再按一个键，直达搜索结果</p>
-      <p>通过搭配不同的网址，你还可以把文字转为二维码，或进行更多操作。</p>
+      <p class="emphasis">现在：选中文字后，按两下Ctrl-C （或Ctrl-C-C），再按一个键，直达搜索结果</p>
+      <p>OneQuick内置了各个常用的网站。通过搭配不同的网址，你还可以把文字转为二维码，或进行更多操作。</p>
     </div>
     <div class="feature-image">
       <img src="/img/feature/copy-search.gif" data-zoomable>
@@ -50,8 +50,7 @@ import { common } from '../.vitepress/common';
   <div class="feature">
     <div class="feature-content">
       <h3>每次调整扩展屏都要去设置里点半天？</h3>
-      <p>Win+P不够用了，怎么办？</p>
-      <p>工作，游戏的屏幕设置不同，如何快速切换？</p>
+      <p>工作，游戏的屏幕设置不同，Win+P不够用了，如何快速切换？</p>
       <p class="emphasis">OneQuick可以记住当前屏幕配置，需要的时候一键切换。</p>
     </div>
     <div class="feature-image">
@@ -60,12 +59,12 @@ import { common } from '../.vitepress/common';
   </div>
   <div class="feature reverse">
     <div class="feature-content">
-      <h3>如何...？</h3>
-      <p>想置顶当前窗口，好搭配其他窗口工作？</p>
-      <p>想将浏览器变为半透明然后摸鱼？</p>
-      <p>想找到一个程序的exe位置在哪里？</p>
-      <p>想修改一个游戏的键位？</p>
-      <p>想快速运行一行命令？</p>
+      <h3>如何...</h3>
+      <p>想置顶当前窗口，好搭配其他窗口工作...</p>
+      <p>想将浏览器变为半透明然后摸鱼...</p>
+      <p>想找到当前程序的exe位置在哪里...</p>
+      <p>想修改游戏的键位...</p>
+      <p>想快速运行命令...</p>
       <p class="emphasis">在OneQuick中，都可以方便的做到。</p>
     </div>
     <div class="feature-image">
@@ -104,7 +103,7 @@ body {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .hero .content h1.name-one-line {
     display: none;
   }
@@ -182,7 +181,7 @@ body {
   height: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .feature {
     flex-direction: column;
     align-items: center;
