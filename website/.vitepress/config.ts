@@ -14,8 +14,17 @@ export default defineConfig({
   },
   head: [
     ['link', { rel: 'icon', href: '/logo.svg' }],
-    ['meta', { name: 'keywords', content: 'OneQuick, Windows, Hotkey Tool, 热键工具' }],
+    ['meta', { name: 'keywords', content: 'OneQuick, Hotkey Tool, Hot Corner, Wheel, Keyboard, Topmost, Monitor, 热键工具, 快捷键工具, 滚轮, 窗口置顶, 屏幕配置' }],
     ['meta', { name: 'author', content: 'xujinkai' }],
+    ['script', {
+      async: 'true',
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-68WQYY77Q7',
+    }],
+    ['script', {}, `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-68WQYY77Q7');`]
   ],
   locales: {
     root: {
