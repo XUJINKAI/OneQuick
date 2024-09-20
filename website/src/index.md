@@ -9,7 +9,9 @@ import { common } from '../.vitepress/common';
 
 <div class="hero">
   <div class="content">
-    <h1>OneQuick - 热键工具</h1>
+    <h1 class="name-one-line">OneQuick - 热键工具</h1>
+    <h1 class="name">OneQuick</h1>
+    <h1 class="name-suffix">热键工具</h1>
     <p>不止于热键</p>
     <p>开箱即用，符合直觉，简单高效</p>
     <div class="actions">
@@ -94,6 +96,26 @@ body {
   color: #0078D7;
 }
 
+.hero .content h1.name {
+  display: none;
+}
+
+.hero .content h1.name-suffix {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hero .content h1.name-one-line {
+    display: none;
+  }
+  .hero .content h1.name {
+    display: block;
+  }
+  .hero .content h1.name-suffix {
+    display: block;
+  }
+}
+
 .hero .content p {
   font-size: 1.2em;
   margin-bottom: 10px;
@@ -158,5 +180,25 @@ body {
 .feature-image img {
   max-width: 100%;
   height: auto;
+}
+
+@media (max-width: 768px) {
+  .feature {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature.reverse {
+    flex-direction: column;
+  }
+
+  .feature-content, .feature-image {
+    width: 100%;
+    text-align: center;
+  }
+
+  .feature.reverse .feature-image {
+    text-align: center;
+  }
 }
 </style>
