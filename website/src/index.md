@@ -135,18 +135,18 @@ body {
 }
 
 .feature-content h3 {
-  font-size: 1.7em;
+  font-size: 1.5em;
   margin-top: 8px;
   margin-bottom: 28px;
   font-weight: 700;
 }
 
 .feature-content p {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .feature-content .emphasis {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 700;
 }
 

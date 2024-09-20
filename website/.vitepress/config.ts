@@ -29,6 +29,7 @@ export default defineConfig({
       ...enConfig,
     },
   },
+  appearance: false,
   themeConfig: {
     logo: '/logo.svg',
     socialLinks: [
