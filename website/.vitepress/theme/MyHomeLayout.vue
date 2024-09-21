@@ -1,7 +1,6 @@
 <script setup lang="ts">
 const props = defineProps<{
-    hero: Hero,
-    features: Feature[],
+    data: HomeData,
 }>();
 
 export type Hero = {
@@ -31,6 +30,19 @@ export type Feature = {
         src: string,
     },
 };
+
+export type HomeData = {
+    hero: Hero,
+    features: Feature[],
+    review: {
+        title: string,
+        image: {
+            src: string,
+        },
+    },
+};
+
+const { hero, features, review } = props.data;
 </script>
 
 <template>
@@ -50,8 +62,6 @@ export type Feature = {
         </div>
     </div>
 
-    <slot></slot>
-
     <div class="features">
         <div v-for="(feature, index) in features" :key="index" :class="['feature', { reverse: index % 2 !== 0 }]">
             <div class="feature-content">
@@ -66,10 +76,23 @@ export type Feature = {
             </div>
         </div>
     </div>
+
+    <div class="review">
+        <h3>{{ review.title }}</h3>
+        <img :src="review.image.src" data-zoomable />
+    </div>
+
+    <div class="bottom-actions">
+        <a :href="hero.actions.url" target="_blank">
+            <img :src="hero.actions.image_src" :width="hero.actions.image_width" />
+        </a>
+    </div>
 </template>
 
 
 <style scoped>
+/* hero */
+
 .hero {
     text-align: center;
     padding: 50px 0;
@@ -88,6 +111,10 @@ export type Feature = {
 }
 
 @media (max-width: 640px) {
+    .hero {
+        margin: 0 -24px; /* 小设备上让左右背景占满，与.container的定义有关 */
+    }
+
     .hero .content h1.name-one-line {
         display: none;
     }
@@ -114,6 +141,8 @@ export type Feature = {
     margin-top: 20px;
 }
 
+/* features */
+
 .features {
     display: flex;
     flex-direction: column;
@@ -138,7 +167,7 @@ export type Feature = {
 }
 
 .feature-content h3 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-top: 8px;
     margin-bottom: 28px;
     font-weight: 700;
@@ -161,6 +190,7 @@ export type Feature = {
 .feature-image img {
     max-width: 100%;
     height: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 640px) {
@@ -182,5 +212,27 @@ export type Feature = {
     .feature.reverse .feature-image {
         text-align: center;
     }
+}
+
+/* review */
+
+.review h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.review img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    max-height: 300px;
+    margin: 0 auto;
+}
+
+/* bottom-actions */
+
+.bottom-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
 }
 </style>

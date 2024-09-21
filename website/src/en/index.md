@@ -5,7 +5,7 @@ layout: home
 
 <script setup>
 import MyHomeLayout from '../../.vitepress/theme/MyHomeLayout.vue';
-import { hero, features } from '../../.vitepress/locale/en';
+import { homeData } from '../../.vitepress/locale/en';
 </script>
 
-<MyHomeLayout :hero="hero" :features="features"></MyHomeLayout>
+<MyHomeLayout :data="homeData"></MyHomeLayout>
