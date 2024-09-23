@@ -3,6 +3,7 @@ import { common } from '../common'
 import type { HomeData } from '../theme/MyHomeLayout.vue';
 
 export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
+    title: "OneQuick - The Indispensable Hotkey Tool",
     description: "Windows Hotkey Tool",
     themeConfig: {
         nav: [

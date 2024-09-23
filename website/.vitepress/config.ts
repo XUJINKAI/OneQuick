@@ -41,6 +41,7 @@ export default defineConfig({
   appearance: false,
   themeConfig: {
     logo: '/logo.svg',
+    siteTitle: 'OneQuick',
     socialLinks: [
       { icon: 'github', link: common.url_github_issues },
     ],
