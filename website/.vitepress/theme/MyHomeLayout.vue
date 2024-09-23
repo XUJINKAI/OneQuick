@@ -3,6 +3,11 @@ const props = defineProps<{
     data: HomeData,
 }>();
 
+export type Action = {
+    text: string,
+    url: string,
+}
+
 export type Hero = {
     name: {
         text: string,
@@ -14,6 +19,7 @@ export type Hero = {
         url: string,
         image_src: string,
         image_width: number,
+        alt: Action[],
     },
     tip: string,
 };
@@ -58,6 +64,13 @@ const { hero, features, review } = props.data;
                     <img :src="hero.actions.image_src" :width="hero.actions.image_width" />
                 </a>
             </div>
+            <ul class="alt-actions" v-if="hero.actions.alt">
+                <template v-for="(action, index) in hero.actions.alt" :key="index">
+                    <li>
+                        <a :href="action.url">{{ action.text }}</a>
+                    </li>
+                </template>
+            </ul>
             <p class="tip">{{ hero.tip }}</p>
         </div>
     </div>
@@ -112,7 +125,8 @@ const { hero, features, review } = props.data;
 
 @media (max-width: 640px) {
     .hero {
-        margin: 0 -24px; /* 小设备上让左右背景占满，与.container的定义有关 */
+        margin: 0 -24px;
+        /* 小设备上让左右背景占满，与.container的定义有关 */
     }
 
     .hero .content h1.name-one-line {
@@ -141,6 +155,17 @@ const { hero, features, review } = props.data;
     margin-top: 20px;
 }
 
+.hero .alt-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.hero .alt-actions a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
 /* features */
 
 .features {
@@ -167,10 +192,10 @@ const { hero, features, review } = props.data;
 }
 
 .feature-content h3 {
-    font-size: 1.2em;
+    font-size: 1.36em;
     margin-top: 8px;
     margin-bottom: 28px;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .feature-content p {

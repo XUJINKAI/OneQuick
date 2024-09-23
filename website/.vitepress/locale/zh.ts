@@ -6,17 +6,35 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     description: "Windows热键工具",
     themeConfig: {
         nav: [
-            { text: '文档', link: '/docs', activeMatch: '^_$' },
+            { text: '文档', link: '/start', activeMatch: '^_$' },
             { text: '专业版', link: '/pro', activeMatch: '^_$' },
+            { text: '支持', link: '/support' },
             { text: '下载', link: common.url_msstore },
         ],
         sidebar: [
             {
-                text: 'OneQuick',
                 items: [
-                    { text: '欢迎', link: '/docs' },
+                    { text: '开始', link: '/start' },
                     { text: '专业版', link: '/pro' },
                     { text: '更新日志', link: '/change-log' },
+                    { text: '支持', link: '/support' },
+                ],
+            },
+            {
+                text: '指南',
+                items: [
+                    { text: '屏幕边缘', link: '/guide/screen' },
+                    { text: '复制执行', link: '/guide/copy' },
+                    { text: '短语替换', link: '/guide/phrase' },
+                    { text: '多步热键', link: '/guide/hotkey' },
+                    { text: '屏幕配置', link: '/guide/display' },
+                    { text: '其他', link: '/guide/misc' },
+                ],
+            },
+            {
+                text: '参考',
+                items: [
+                    { text: '执行项', link: '/reference/operation' },
                 ],
             },
             {
@@ -41,7 +59,10 @@ export const homeData: HomeData = {
         actions: {
             url: common.url_msstore,
             image_src: '/cn-ws-dl.svg',
-            image_width: 200
+            image_width: 200,
+            alt: [
+                { text: '更新日志', url: '/change-log' },
+            ]
         },
         tip: '*官网施工中，有问题欢迎到github提issue',
     },
@@ -57,7 +78,7 @@ export const homeData: HomeData = {
                 '通过OneQuick，鼠标在各个屏幕边缘的功能，都是可调的。',
             ],
             image: {
-                src: '/img/feature/screen-volume.gif',
+                src: '/feature/screen-volume.gif',
             },
         },
         {
@@ -66,13 +87,13 @@ export const homeData: HomeData = {
                 '以前：选中文字后，复制文字，打开浏览器中想搜索的网站，在搜索框中粘贴，最后回车...',
                 '如果想在多个网站搜索比对，还得重复重复再重复...',
                 {
-                    text: '现在：选中文字后，按两下Ctrl-C （或Ctrl-C-C），再按一个键，直达搜索结果',
+                    text: '现在：选中文字后，复制两次（Ctrl-C-C），再按一个键，直达搜索结果',
                     emphasis: true,
                 },
                 'OneQuick内置了各个常用的网站。通过搭配不同的网址，你还可以把文字转为二维码，或进行更多操作。',
             ],
             image: {
-                src: '/img/feature/copy-search.gif',
+                src: '/feature/copy-search.gif',
             },
         },
         {
@@ -85,7 +106,7 @@ export const homeData: HomeData = {
                 },
             ],
             image: {
-                src: '/img/shot/cn-display.png',
+                src: '/shot/cn-display.png',
             },
         },
         {
@@ -102,14 +123,14 @@ export const homeData: HomeData = {
                 },
             ],
             image: {
-                src: '/img/shot/cn-hotkey.png',
+                src: '/shot/cn-hotkey.png',
             },
         },
     ],
     review: {
         title: '大家的评价：',
         image: {
-            src: '/img/comments.png',
+            src: '/social/comments.png',
         },
     }
 };

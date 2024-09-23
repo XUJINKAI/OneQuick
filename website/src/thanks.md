@@ -1,4 +1,3 @@
-
 ### 感谢最早的支持者
 
-![](/img/comments-old.png)
+![](/social/comments-old.png){ data-zoomable }

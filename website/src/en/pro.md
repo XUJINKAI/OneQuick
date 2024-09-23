@@ -1,24 +1,37 @@
 # Pro Version
 
-The differences between the Free and Pro versions are as follows:
+To continuously maintain and update the software, we have launched the Pro version.
+
+As one user said, **the free version is sufficient, the Pro version is better**.
+
+In daily use, the OneQuick free version is already very useful. You are welcome to use the free version and provide suggestions and feedback.
+
+## Feature List
+
+The Pro version currently adopts an annual subscription model, priced at a cup of coffee ☕.
 
 |                      |    Free Version     | Pro Version |
 | :------------------: | :-----------------: | :---------: |
-|    Screen Border     | Primary Screen Only |      √      |
-|     Copy Search      |       5 Items       |      √      |
-|    Phrase Output     |      10 Items       |      √      |
-|    Multi-Hotkeys     |       1 Item        |      √      |
-|    Display Config    |      No Hotkey      |      √      |
-|     Config Sync      |          ×          |      √      |
-| Config Import/Export |          √          |      √      |
+|    Screen Border     | Primary Screen Only |     ✔️      |
+|     Copy Search      |       5 Items       |     ✔️      |
+|    Phrase Output     |      10 Items       |     ✔️      |
+|    Multi-Hotkeys     |       1 Item        |     ✔️      |
+|    Display Config    |      No Hotkey      |     ✔️      |
+|     Config Sync      |         ❌          |     ✔️      |
+| Config Import/Export |         ✔️          |     ✔️      |
+|    Commercial Use    |         ✔️          |     ✔️      |
 
-In daily use, the free version is sufficient for most needs. If you need more features, you can choose the Pro version.
+## FAQs
 
-The Pro version is subscription-based, but don't worry, it costs only as much as a meal of rice or noodles per year. The developer is a bit hungry...
+- Pay through the official Microsoft Store channel, supporting Alipay/debit card/credit card and other methods.
 
-# Subscription Instructions
+- When paying or entering the redemption code, make sure you are logged into the correct Microsoft account.
 
-- To cancel auto-renewal, you can go to the [subscription page](https://account.microsoft.com/services/) of your Microsoft account.
+- A Microsoft account can be bound to up to 10 devices. You can manage your devices [here](https://account.microsoft.com/devices/content).
+
+- If you have received a redemption code, you can redeem it [here](https://account.microsoft.com/billing/redeem); or in the Microsoft Store, click on the avatar in the upper right corner and select "Redeem Code".
+
+- The subscription will automatically renew upon expiration. If you want to cancel the automatic renewal, you can manage it [here](https://account.microsoft.com/services/).
 
 <style>
 td {

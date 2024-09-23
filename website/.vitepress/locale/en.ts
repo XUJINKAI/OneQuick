@@ -6,16 +6,40 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     description: "Windows Hotkey Tool",
     themeConfig: {
         nav: [
-            { text: 'Docs', link: '/en/docs' },
+            { text: 'Docs', link: '/en/start' },
             { text: 'Pro', link: '/en/pro' },
+            { text: 'Support', link: '/en/support' },
             { text: 'Download', link: common.url_msstore },
         ],
         sidebar: [
             {
-                text: 'OneQuick',
                 items: [
-                    { text: 'Welcome', link: '/en/docs' },
+                    { text: 'Welcome', link: '/en/start' },
                     { text: 'Pro Version', link: '/en/pro' },
+                    { text: 'Support', link: '/en/support' },
+                ],
+            },
+            {
+                text: 'Guides',
+                items: [
+                    { text: 'Screen Border', link: '/en/guide/screen' },
+                    { text: 'Copy Run', link: '/en/guide/copy' },
+                    { text: 'Input Phrase', link: '/en/guide/phrase' },
+                    { text: 'Multi-Hotkey', link: '/en/guide/hotkey' },
+                    { text: 'Display Config', link: '/en/guide/display' },
+                    { text: 'Misc', link: '/en/guide/misc' },
+                ],
+            },
+            {
+                text: 'Reference',
+                items: [
+                    { text: 'Operation', link: '/en/reference/operation' },
+                ],
+            },
+            {
+                text: 'Links',
+                items: [
+                    { text: 'Change Log', link: '/change-log' },
                     { text: 'Privacy Policy', link: '/privacy-policy' },
                 ],
             },
@@ -34,7 +58,8 @@ export const homeData: HomeData = {
         actions: {
             url: common.url_msstore,
             image_src: '/en-ws-dl.svg',
-            image_width: 200
+            image_width: 200,
+            alt: [],
         },
         tip: '*Website under construction, if you have any questions, feel free to raise an issue on GitHub'
     },
@@ -50,7 +75,7 @@ export const homeData: HomeData = {
                 'With OneQuick, the functions of the mouse at the edges of the screen are all adjustable.',
             ],
             image: {
-                src: '/img/feature/screen-volume.gif',
+                src: '/feature/screen-volume.gif',
             },
         },
         {
@@ -65,7 +90,7 @@ export const homeData: HomeData = {
                 'OneQuick has built-in support for various commonly used websites. By combining different URLs, you can also convert text to QR codes or perform more operations.',
             ],
             image: {
-                src: '/img/feature/copy-search.gif',
+                src: '/feature/copy-search.gif',
             },
         },
         {
@@ -78,7 +103,7 @@ export const homeData: HomeData = {
                 },
             ],
             image: {
-                src: '/img/shot/en-display.png',
+                src: '/shot/en-display.png',
             },
         },
         {
@@ -95,14 +120,14 @@ export const homeData: HomeData = {
                 },
             ],
             image: {
-                src: '/img/shot/en-hotkey.png',
+                src: '/shot/en-hotkey.png',
             },
         },
     ],
     review: {
         title: 'Reviews:',
         image: {
-            src: '/img/comments.png',
+            src: '/social/comments.png',
         },
     },
 };

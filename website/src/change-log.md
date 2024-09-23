@@ -75,10 +75,3 @@
 ## 0.1.0 (2016/4/20) 
 
 AHK版发布。
-
-<style scope>
-.vp-doc ul li p {
-    margin: 0;
-    line-height: 1.5;
-}
-</style>
