@@ -1,4 +1,4 @@
-# Phrase Replacement
+# Input Phrase
 
 > Perhaps it should be renamed to "Quick Input"
 

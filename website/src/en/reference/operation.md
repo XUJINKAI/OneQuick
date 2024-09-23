@@ -1,3 +1,7 @@
+---
+title: Operation
+---
+
 Here list supported operation in OneQuick
 
 ## Custom Hotkey

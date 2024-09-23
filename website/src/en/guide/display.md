@@ -1,4 +1,4 @@
-# Display Configuration
+# Display Config
 
 This feature remembers the current system's display configuration and quickly applies it when needed.
 
