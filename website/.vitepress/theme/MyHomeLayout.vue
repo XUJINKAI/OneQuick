@@ -64,13 +64,11 @@ const { hero, features, review } = props.data;
                     <img :src="hero.actions.image_src" :width="hero.actions.image_width" />
                 </a>
             </div>
-            <ul class="alt-actions" v-if="hero.actions.alt">
+            <div class="alt-actions" v-if="hero.actions.alt">
                 <template v-for="(action, index) in hero.actions.alt" :key="index">
-                    <li>
-                        <a :href="action.url">{{ action.text }}</a>
-                    </li>
+                    <a :href="action.url">{{ action.text }}</a>
                 </template>
-            </ul>
+            </div>
             <p class="tip">{{ hero.tip }}</p>
         </div>
     </div>
@@ -159,11 +157,17 @@ const { hero, features, review } = props.data;
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    gap: 14px;
 }
 
 .hero .alt-actions a {
     font-size: 14px;
     text-decoration: none;
+}
+
+.hero .alt-actions a::before {
+    content: '•';
+    margin-right: 4px;
 }
 
 /* features */

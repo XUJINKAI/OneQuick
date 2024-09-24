@@ -8,7 +8,7 @@ In daily use, the OneQuick free version is already very useful. You are welcome 
 
 ## Feature List
 
-The Pro version currently adopts an annual subscription model, priced at a cup of coffee ☕.
+The Pro version currently adopts an annual subscription model, priced at a meal 🍛.
 
 |                      |    Free Version     | Pro Version |
 | :------------------: | :-----------------: | :---------: |

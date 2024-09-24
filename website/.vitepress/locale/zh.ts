@@ -63,6 +63,7 @@ export const homeData: HomeData = {
             image_width: 200,
             alt: [
                 { text: '更新日志', url: '/change-log' },
+                { text: '促销信息', url: '/pro#促销信息' },
             ]
         },
         tip: '*官网施工中，有问题欢迎到github提issue',
