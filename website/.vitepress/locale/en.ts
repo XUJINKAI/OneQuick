@@ -24,8 +24,8 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
                 text: 'Guides',
                 items: [
                     { text: 'Screen Border', link: '/en/guide/screen' },
-                    { text: 'Copy Run', link: '/en/guide/copy' },
-                    { text: 'Input Phrase', link: '/en/guide/phrase' },
+                    { text: 'Copy Search', link: '/en/guide/copy' },
+                    { text: 'Phrase Replace', link: '/en/guide/phrase' },
                     { text: 'Multi-Hotkey', link: '/en/guide/hotkey' },
                     { text: 'Display Config', link: '/en/guide/display' },
                     { text: 'Misc', link: '/en/guide/misc' },
@@ -60,7 +60,8 @@ export const homeData: HomeData = {
             url: common.url_msstore,
             image_src: '/en-ws-dl.svg',
             image_width: 200,
-            alt: [],
+            alt: [
+            ],
         },
         tip: '*Website under construction, if you have any questions, feel free to raise an issue on GitHub'
     },

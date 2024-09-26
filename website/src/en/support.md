@@ -22,6 +22,15 @@ OneQuick comes with the dotnet runtime to ensure it works on all users' computer
 
 Rest assured, OneQuick does not include malware and does not collect user data.
 
+
+#### How much memory does it occupy?
+
+After actual testing, OneQuick only occupies about 25MB of memory when running in the background.
+
+#### Sometimes it doesn't work
+
+Due to system restrictions, if the current active window has administrator privileges, OneQuick cannot capture key events.
+
 #### Purchase page crashes
 
 Due to Windows restrictions, if OneQuick is launched with administrator privileges, the purchase page cannot be displayed.

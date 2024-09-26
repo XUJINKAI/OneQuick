@@ -1,6 +1,4 @@
-# Copy Run
-
-> Perhaps "Quick Search" is a more suitable name
+# Copy Search
 
 The basic usage is to select a piece of text, copy it twice (Ctrl-C-C), and then press the set hotkey to automatically open the search results page.
 

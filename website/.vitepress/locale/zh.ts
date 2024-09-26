@@ -25,10 +25,10 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
                 text: '指南',
                 items: [
                     { text: '屏幕边缘', link: '/guide/screen' },
-                    { text: '复制执行', link: '/guide/copy' },
+                    { text: '复制搜索', link: '/guide/copy' },
                     { text: '短语替换', link: '/guide/phrase' },
                     { text: '多步热键', link: '/guide/hotkey' },
-                    { text: '屏幕配置', link: '/guide/display' },
+                    { text: '显示器配置', link: '/guide/display' },
                     { text: '其他', link: '/guide/misc' },
                 ],
             },
