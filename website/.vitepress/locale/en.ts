@@ -10,7 +10,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             { text: 'Docs', link: '/en/start' },
             { text: 'Pro', link: '/en/pro' },
             { text: 'Support', link: '/en/support' },
-            { text: 'Download', link: common.url_msstore },
+            { text: 'Download', link: common.url_msstore(true, 'en-us', 'US') },
         ],
         sidebar: [
             {
@@ -57,7 +57,7 @@ export const homeData: HomeData = {
         description: 'More than just hotkeys',
         tagline: 'Ready to use, intuitive, simple and efficient',
         actions: {
-            url: common.url_msstore,
+            url: common.url_msstore(false, 'en-us', 'US'),
             image_src: '/en-ws-dl.svg',
             image_width: 200,
             alt: [

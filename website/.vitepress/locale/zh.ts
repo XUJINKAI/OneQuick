@@ -10,7 +10,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             { text: '文档', link: '/start', activeMatch: '^_$' },
             { text: '专业版', link: '/pro', activeMatch: '^_$' },
             { text: '支持', link: '/support' },
-            { text: '下载', link: common.url_msstore },
+            { text: '下载', link: common.url_msstore(true, 'zh-cn', 'CN') },
         ],
         sidebar: [
             {
@@ -58,7 +58,7 @@ export const homeData: HomeData = {
         description: '不止于热键',
         tagline: '开箱即用，符合直觉，简单高效',
         actions: {
-            url: common.url_msstore,
+            url: common.url_msstore(false, 'zh-cn', 'CN'),
             image_src: '/cn-ws-dl.svg',
             image_width: 200,
             alt: [
