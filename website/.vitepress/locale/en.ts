@@ -63,7 +63,6 @@ export const homeData: HomeData = {
             alt: [
             ],
         },
-        tip: '*Website under construction, if you have any questions, feel free to raise an issue on GitHub'
     },
     features: [
         {
@@ -84,16 +83,29 @@ export const homeData: HomeData = {
             title: 'How to quickly search for a piece of text?',
             content: [
                 'Before: Select the text, copy it, open the browser to the desired search site, paste it in the search box, and finally press Enter...',
-                'If you want to search and compare on multiple websites, you have to repeat, repeat, and repeat again…',
                 {
-                    text: 'Now: Select the text, press Ctrl-C twice (or Ctrl-C-C), then press one key to go directly to the search results',
+                    text: 'Now: Select the text, Copy twice (or Ctrl-C-C), then press one key to go directly to the search results',
                     emphasis: true,
                 },
                 'OneQuick has built-in support for various commonly used websites. By combining different URLs, you can also convert text to QR codes or perform more operations.',
             ],
             image: {
-                src: '/feature/copy-search.gif',
+                src: '/feature/copy-search-3-en.gif',
             },
+        },
+        {
+            "title": "How to Quickly Input a Piece of Text?",
+            "content": [
+                "Email addresses, physical addresses, customer service scripts, technical terms, AI prompts, current timestamps... Repetitive tasks can be quite annoying.",
+                {
+                    "text": "OneQuick can help you reduce repetitive work.",
+                    "emphasis": true
+                },
+                "It also has a configuration sync feature that allows seamless switching between multiple computers."
+            ],
+            "image": {
+                "src": "/feature/phrase-replace-en.gif"
+            }
         },
         {
             title: 'Do you have to go to settings every time to adjust the extended screen?',

@@ -66,7 +66,6 @@ export const homeData: HomeData = {
                 { text: '促销信息', url: '/pro#促销信息' },
             ]
         },
-        tip: '*官网施工中，有问题欢迎到github提issue',
     },
     features: [
         {
@@ -74,10 +73,10 @@ export const homeData: HomeData = {
             content: [
                 '看电影时，玩游戏时，工作汇报时，被突然的声音吓一跳？如何快速修改音量？',
                 {
-                    text: '把鼠标移动到屏幕左上角，滚动滚轮即可，按下还可以静音。',
+                    text: '把鼠标移动到屏幕左上角，滚动滚轮就行，按下则静音。',
                     emphasis: true,
                 },
-                '通过OneQuick，鼠标在各个屏幕边缘的功能，都是可调的。',
+                '通过OneQuick，鼠标在各个屏幕边缘的功能，都可以定制。',
             ],
             image: {
                 src: '/feature/screen-volume.gif',
@@ -87,7 +86,6 @@ export const homeData: HomeData = {
             title: '如何快速搜索一段文本？',
             content: [
                 '以前：选中文字后，复制文字，打开浏览器中想搜索的网站，在搜索框中粘贴，最后回车...',
-                '如果想在多个网站搜索比对，还得重复重复再重复...',
                 {
                     text: '现在：选中文字后，复制两次（Ctrl-C-C），再按一个键，直达搜索结果',
                     emphasis: true,
@@ -95,11 +93,25 @@ export const homeData: HomeData = {
                 'OneQuick内置了各个常用的网站。通过搭配不同的网址，你还可以把文字转为二维码，或进行更多操作。',
             ],
             image: {
-                src: '/feature/copy-search.gif',
+                src: '/feature/copy-search-3-cn.gif',
             },
         },
         {
-            title: '每次调整扩展屏都要去设置里点半天？',
+            title: '如何快速的输入一段文字？',
+            content: [
+                '邮箱，地址，客服话术，专业术语，AI提示语，当前时间戳...重复的东西，很烦。',
+                {
+                    text: 'OneQuick可以帮助你减少重复劳动。',
+                    emphasis: true,
+                },
+                '还有配置同步功能帮助你在多台电脑间无缝切换。',
+            ],
+            image: {
+                src: '/feature/phrase-replace-cn.gif',
+            },
+        },
+        {
+            title: '每次切换外接屏都要去设置里点半天？',
             content: [
                 '工作，游戏的屏幕设置不同，Win+P不够用了，如何快速切换？',
                 {

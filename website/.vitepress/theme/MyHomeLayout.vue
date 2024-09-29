@@ -21,7 +21,7 @@ export type Hero = {
         image_width: number,
         alt: Action[],
     },
-    tip: string,
+    tip?: string,
 };
 
 export type FeatureParagraph = string | {
@@ -69,7 +69,7 @@ const { hero, features, review } = props.data;
                     <a :href="action.url">{{ action.text }}</a>
                 </template>
             </div>
-            <p class="tip">{{ hero.tip }}</p>
+            <p class="tip" v-if="hero.tip">{{ hero.tip }}</p>
         </div>
     </div>
 
