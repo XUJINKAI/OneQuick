@@ -24,18 +24,25 @@ export default defineConfig({
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-68WQYY77Q7');`]
+      gtag('config', 'G-68WQYY77Q7');`
+    ],
   ],
-  transformPageData: (pageData) => {
+  transformPageData: (pageData, ctx) => {
     const canonicalUrl = `https://onequick.org/${pageData.relativePath}`
       .replace(/index\.md$/, '')
-      .replace(/\.md$/, '')
+      .replace(/\.md$/, '');
 
-    pageData.frontmatter.head ??= []
-    pageData.frontmatter.head.push([
-      'link',
-      { rel: 'canonical', href: canonicalUrl }
-    ])
+    pageData.frontmatter.head ??= [];
+    pageData.frontmatter.head.push(['link', { rel: 'canonical', href: canonicalUrl }]);
+    pageData.frontmatter.head.push(['meta', {
+      property: 'og:title', content: pageData.frontmatter.layout === 'home'
+        ? 'OneQuick'
+        : `${pageData.title} | OneQuick`,
+    }]);
+    pageData.frontmatter.head.push(['meta', { property: 'og:type', content: 'website' }]);
+    pageData.frontmatter.head.push(['meta', { property: 'og:url', content: canonicalUrl }]);
+    pageData.frontmatter.head.push(['meta', { property: 'og:image', content: 'https://onequick.org/logo.svg' }]);
+    pageData.frontmatter.head.push(['meta', { property: 'og:site_name', content: 'OneQuick' }]);
   },
   locales: {
     root: {
