@@ -21,6 +21,14 @@ The Pro version currently adopts an annual subscription model, priced at a meal 
 | Config Import/Export |         ✔️          |     ✔️      |
 |    Commercial Use    |         ✔️          |     ✔️      |
 
+## Install & Purchase
+
+Click the download link, or search for `OneQuick` in the Microsoft Store to install.
+
+On the start page of the app, or in the Settings -> License page, click the purchase button to buy the Pro version.
+
+If there are any promotional activities, you can find them on the Settings > License page.
+
 ## FAQs
 
 - Pay through the official Microsoft Store channel, supporting Alipay/debit card/credit card and other methods.
