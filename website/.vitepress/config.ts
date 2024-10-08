@@ -26,6 +26,17 @@ export default defineConfig({
 
       gtag('config', 'G-68WQYY77Q7');`]
   ],
+  transformPageData: (pageData) => {
+    const canonicalUrl = `https://onequick.org/${pageData.relativePath}`
+      .replace(/index\.md$/, '')
+      .replace(/\.md$/, '')
+
+    pageData.frontmatter.head ??= []
+    pageData.frontmatter.head.push([
+      'link',
+      { rel: 'canonical', href: canonicalUrl }
+    ])
+  },
   locales: {
     root: {
       label: '简体中文',
