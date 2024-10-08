@@ -31,18 +31,23 @@ export default defineConfig({
     const canonicalUrl = `https://onequick.org/${pageData.relativePath}`
       .replace(/index\.md$/, '')
       .replace(/\.md$/, '');
+    const lang = pageData.filePath.startsWith('en/') ? 'en-US' : 'zh-CN';
+    const locale_prefix = pageData.filePath.startsWith('en/') ? 'en' : 'root';
+    const locale = ctx.siteConfig.site.locales[locale_prefix];
 
     pageData.frontmatter.head ??= [];
     pageData.frontmatter.head.push(['link', { rel: 'canonical', href: canonicalUrl }]);
     pageData.frontmatter.head.push(['meta', {
-      property: 'og:title', content: pageData.frontmatter.layout === 'home'
-        ? 'OneQuick'
-        : `${pageData.title} | OneQuick`,
+      property: 'og:title', content:
+        pageData.frontmatter.layout === 'home' ? locale.title
+          : pageData.title ? `${pageData.title} | ${locale.title}`
+            : locale.title
     }]);
+    pageData.frontmatter.head.push(['meta', { property: 'og:description', content: locale.description }]);
     pageData.frontmatter.head.push(['meta', { property: 'og:type', content: 'website' }]);
     pageData.frontmatter.head.push(['meta', { property: 'og:url', content: canonicalUrl }]);
-    pageData.frontmatter.head.push(['meta', { property: 'og:image', content: 'https://onequick.org/logo.svg' }]);
-    pageData.frontmatter.head.push(['meta', { property: 'og:site_name', content: 'OneQuick' }]);
+    // pageData.frontmatter.head.push(['meta', { property: 'og:image', content: 'https://onequick.org/logo.svg' }]);
+    pageData.frontmatter.head.push(['meta', { property: 'og:locale', content: lang }]);
   },
   locales: {
     root: {

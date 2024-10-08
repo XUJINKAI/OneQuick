@@ -3,8 +3,8 @@ import { common } from '../common'
 import type { HomeData } from '../theme/MyHomeLayout.vue';
 
 export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
-    title: "OneQuick - 离不开的热键工具",
-    description: "Windows热键工具",
+    title: "OneQuick - 热键效率工具 - 开箱即用，符合直觉，简单高效",
+    description: "Windows热键效率工具，音量，标签页，快速搜索，便捷输入，显示器配置，热键模拟，运行命令，窗口置顶，窗口透明。。。",
     themeConfig: {
         nav: [
             { text: '文档', link: '/start', activeMatch: '^_$' },
