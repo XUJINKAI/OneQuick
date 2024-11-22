@@ -6,6 +6,10 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     title: "OneQuick - The Indispensable Hotkey Tool - Ready to use, intuitive, simple and efficient",
     description: "Windows hotkey Productivity tools, volume, tabs, quick search, quick input, display config, hotkey simulation, run commands, window topmost, window transparency...",
     themeConfig: {
+        outline: {
+            label: 'On this Page',
+            level: [2, 3],
+        },
         nav: [
             { text: 'Docs', link: '/en/start' },
             { text: 'Pro', link: '/en/pro' },
@@ -61,7 +65,8 @@ export const homeData: HomeData = {
             image_src: '/en-ws-dl.svg',
             image_width: 200,
             alt: [
-            ],
+                { text: 'Change-Log (CN)', url: '/change-log' },
+            ]
         },
     },
     features: [

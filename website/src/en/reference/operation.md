@@ -4,9 +4,13 @@ title: Operation
 
 Here list supported operation in OneQuick
 
-## Custom Hotkey
+## Simulate Hotkey
 
-Use this option to simulate sending hotkeys. For example, the volume adjustment feature is implemented by simulating the keyboard volume keys `VOLUME_UP` and `VOLUME_DOWN`.
+Use this operation to simulating hotkeys.
+
+In OneQuick, the `Hotkey` has been enhanced, and the combination of keyboard and mouse is also a valid hotkey, such as the `Ctrl+Left Mouse Button` combination, which can also be simulated or listened to.
+
+On the hotkey setting control, left click enters the input mode, and pressing the keyboard or mouse combination records the key; right click pops up the selection menu, where you can manually select the key.
 
 ## Run Command
 
