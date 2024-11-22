@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UpdateInfo>
+    <Versions>
+        <VersionItem>
+            <Tag>桌面稳定版</Tag>
+            <LauncherName>OneQuick.exe</LauncherName>
+            <IsStoreVersion>false</IsStoreVersion>
+            <IsPrerelease>false</IsPrerelease>
+            <PushPercentage>100</PushPercentage>
+            <Version>10.3.0</Version>
+            <X86Url>https://onequick.org/</X86Url>
+            <X64Url>https://onequick.org/</X64Url>
+            <ChangeLog>全新v10版本已上架应用商店。</ChangeLog>
+        </VersionItem>
+        <VersionItem>
+            <Tag>商店版ChangeLog提示</Tag>
+            <LauncherName>OneQuick.exe</LauncherName>
+            <IsStoreVersion>true</IsStoreVersion>
+            <IsPrerelease>false</IsPrerelease>
+            <PushPercentage>100</PushPercentage>
+            <Version>10.3.0</Version>
+            <X86Url></X86Url>
+            <X64Url></X64Url>
+            <ChangeLog>全新v10版本已上架应用商店。</ChangeLog>
+        </VersionItem>
+    </Versions>
+    <PromoTag>false</PromoTag>
+    <AboutTextBlock>全新v10版本已上架，请访问官网或微软应用商店更新。</AboutTextBlock>
+</UpdateInfo>

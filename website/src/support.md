@@ -81,7 +81,7 @@ OneQuick自带了dotnet运行时，以保证在所有用户电脑上均可用，
 
 可在**设置**->**Flags**中，修改`Send Text Method`的值为1或3。
 
-这会让输出文字的方法变为通过剪贴板进行。
+相关Issue: [#93](https://github.com/XUJINKAI/OneQuick/issues/93)
 
 #### 音调符号
 

@@ -79,7 +79,7 @@ If you are an old version upgrade user, you can find the old configuration files
 
 In the **Settings** -> **Flags**, Change `Send Text Method` to 1 or 3.
 
-This will change the method of outputting text to be done through the clipboard.
+Github Issue: [#93](https://github.com/XUJINKAI/OneQuick/issues/93)
 
 #### Dead Key/Accent mark
 

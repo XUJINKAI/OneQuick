@@ -38,6 +38,8 @@ tip: Right-click the item to quickly copy the URL of this item.
 
 What OneQuick does is replace `%s` or `OneQuick` in the URL with the clipboard content, and then execute the result.
 
+If you want to open a copied URL, you can directly enter `%s` in the execution URL.
+
 <style>
 .editor {
   max-width: 400px;
