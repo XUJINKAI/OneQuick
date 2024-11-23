@@ -65,6 +65,8 @@ For those who subscribed:
 
 Go to [Microsoft Order History](https://account.microsoft.com/billing/orders) to find your order records, then send a screenshot to <support@onequick.org>.
 
+You can pay the difference via [WeChat](/pay/weixin.png) (recommended) or [Alipay](/pay/alipay.jpg). Please make sure to include your email address as a note. As the process is done manually, responses may not be timely. Thank you for your understanding.
+
 <style>
 td {
     width: 12rem;
