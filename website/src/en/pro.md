@@ -2,6 +2,8 @@
 
 As One user said, **the free version is sufficient, the Pro version is better**.
 
+If OneQuick has helped you, please leaving a rate/review in the app store ❤️
+
 ## How to Purchase
 
 In the Settings -> License page, click the item you want to purchase.
