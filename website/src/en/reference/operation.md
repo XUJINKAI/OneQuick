@@ -44,6 +44,8 @@ These are operations on the **current active window**.
 
     Increase or decrease the opacity of the current window.
 
+    Note: Some windows may not support this feature, depending on the implementation of the target window.
+
 - Window Maximize/Minimize/Close
 
 - App Exit

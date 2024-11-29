@@ -47,13 +47,15 @@ Please wait a moment (1 minute), click the refresh button on the license page, o
 
 ### Usage
 
-#### Doesn't work
+#### NOT work
 
-Due to system restrictions, if the current active window has administrator privileges, OneQuick cannot capture key events.
+1. Check if the program state is running and the corresponding features are enabled.
 
-You can set the application to start with administrator privileges.
+2. For administrative windows, OneQuick must be run with administrator to function properly.
 
-#### I want to import the configuration from the old version
+3. Some specific programs (e.g., Remote Desktop mstsc) will capture hotkey inputs, making OneQuick's hotkey simulation ineffective (such as volume control and switch virtual desktops). [#50](https://github.com/XUJINKAI/OneQuick/issues/50)
+
+#### Import Old Config
 
 In the program's **Settings** -> **Profile** -> **Advanced**, you can find the option to import configurations.
 
