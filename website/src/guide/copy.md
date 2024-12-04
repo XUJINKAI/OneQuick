@@ -22,7 +22,7 @@
 
 ![复制执行编辑器](/shot/cn-copy-editor.png){ data-zoomable .editor .img-shadow}
 
-## 同时搜索多个网址 (Pro)
+## 聚合搜索 (Pro)
 
 你可以通过添加分号分隔的网址，一次性打开多个网址。
 

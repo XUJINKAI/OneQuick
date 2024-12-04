@@ -24,7 +24,7 @@ Current Status: OneQuick 10 is still being actively updated.
 |        Range         | Primary Screen Only |        All Screens        |
 |   **Copy Search**    |                     |                           |
 |       Quantity       |       5 Items       |            ✔️             |
-|  Multi-Website Open  |         ❌          |            ✔️             |
+|     Batch Search     |         ❌          |            ✔️             |
 |  **Phrase Replace**  |                     |                           |
 |       Quantity       |      10 Items       |            ✔️             |
 |  **Multi-Hotkeys**   |                     |                           |
@@ -32,7 +32,11 @@ Current Status: OneQuick 10 is still being actively updated.
 |  **Display Config**  |                     |                           |
 |       Quantity       |         ✔️          |            ✔️             |
 |    Config Hotkey     |         ❌          |            ✔️             |
-|      **Other**       |                     |                           |
+|      **Tools**       |                     |                           |
+|    Input Monitor     |         ✔️          |            ✔️             |
+|       App List       |         ✔️          |            ✔️             |
+|     **Setting**      |                     |                           |
+|     Disable Apps     |         ❌          |            ✔️             |
 |     Config Sync      |         ❌          |            ✔️             |
 | Config Import/Export |         ✔️          |            ✔️             |
 |      **Usage**       |                     |                           |
@@ -65,7 +69,7 @@ For those who subscribed:
 
 Go to [Microsoft Order History](https://account.microsoft.com/billing/orders) to find your order records, then send a screenshot to <support@onequick.org>.
 
-You can pay the difference via [WeChat](/pay/weixin.png) (recommended) or [Alipay](/pay/alipay.jpg). Please make sure to include your email address as a note. As the process is done manually, responses may not be timely. Thank you for your understanding.
+You can pay the difference via [WeChat](/pay/weixin.png) (recommended) or [Alipay](/pay/alipay.jpg). Please make sure to include your send-screenshot email address as a note. As the process is done manually, responses may not be timely. Thank you for your understanding.
 
 <style>
 td {

@@ -22,7 +22,7 @@ Note: Some websites do not change the address bar after searching (the address d
 
 ![Copy Run Editor](/shot/en-copy-editor.png){ data-zoomable .editor .img-shadow}
 
-## Searching Multiple Websites Simultaneously (Pro)
+## Batch Searching (Pro)
 
 You can open multiple websites at once by adding semicolon-separated URLs.
 

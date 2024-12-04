@@ -56,6 +56,12 @@ Note that due to different operating system configurations, the behavior may var
 
 For example, on some laptops, the lock screen effect is the same as sleep, and some systems do not have a hibernate option.
 
+- Keep Awake
+
+    Keep the monitor on and prevent the system from entering sleep mode.
+
+    When this feature is activated, a topmost prompt box will appear. To disable this feature, simply close the prompt box.
+
 - Monitor Off
 - Lock Screen
 - Sleep

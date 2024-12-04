@@ -33,6 +33,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
                     { text: '短语替换', link: '/guide/phrase' },
                     { text: '多步热键', link: '/guide/hotkey' },
                     { text: '显示器配置', link: '/guide/display' },
+                    { text: '实用工具', link: '/guide/tool' },
                     { text: '其他', link: '/guide/misc' },
                 ],
             },

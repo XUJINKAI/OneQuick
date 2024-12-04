@@ -32,6 +32,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
                     { text: 'Phrase Replace', link: '/en/guide/phrase' },
                     { text: 'Multi-Hotkey', link: '/en/guide/hotkey' },
                     { text: 'Display Config', link: '/en/guide/display' },
+                    { text: 'Tools', link: '/en/guide/tool' },
                     { text: 'Misc', link: '/en/guide/misc' },
                 ],
             },
