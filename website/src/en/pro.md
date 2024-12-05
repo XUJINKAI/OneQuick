@@ -71,6 +71,8 @@ Go to [Microsoft Order History](https://account.microsoft.com/billing/orders) to
 
 You can pay the difference via [WeChat](/pay/weixin.png) (recommended) or [Alipay](/pay/alipay.jpg). Please make sure to include your send-screenshot email address as a note. As the process is done manually, responses may not be timely. Thank you for your understanding.
 
+After switch from subscription to a lifetime license, make sure to cancel the auto-renewal of your subscription in the Microsoft Store to avoid being charged twice.
+
 <style>
 td {
     width: 12rem;
