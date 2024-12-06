@@ -3,8 +3,8 @@ import { common } from '../common'
 import type { HomeData } from '../theme/MyHomeLayout.vue';
 
 export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
-    title: "OneQuick - The Indispensable Hotkey Tool - Ready to use, intuitive, simple and efficient",
-    description: "Windows hotkey Productivity tools, volume, tabs, quick search, quick input, display config, hotkey simulation, run commands, window topmost, window transparency...",
+    title: "OneQuick - Hotkey Tool - Simple, Intuitive, Efficient",
+    description: "Windows hotkey Productivity tools, hot corner, volume, virtual desktop, batch search, quick search, quick input, display config, hotkey simulation, run commands, window topmost, window transparency, input spy, input monitor",
     themeConfig: {
         outline: {
             label: 'On this Page',
@@ -60,7 +60,7 @@ export const homeData: HomeData = {
             suffix: 'Hotkey Tool',
         },
         description: 'More than just hotkeys',
-        tagline: 'Ready to use, intuitive, simple and efficient',
+        tagline: 'Simple, Intuitive, Efficient',
         actions: {
             url: common.url_msstore(false, 'en-us', 'US'),
             image_src: '/en-ws-dl.svg',

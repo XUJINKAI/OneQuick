@@ -14,7 +14,7 @@ export default defineConfig({
   },
   head: [
     ['link', { rel: 'icon', href: '/logo.svg' }],
-    ['meta', { name: 'keywords', content: 'OneQuick, Hotkey Tool, Hot Corner, Wheel, Keyboard, Topmost, Monitor, 热键工具, 快捷键软件, 滚轮, 窗口置顶, 屏幕配置, 一键, 运行, AutoHotKey, AHK, uTools, WGestures, Smart Actions, Power Automate, PowerToys' }],
+    ['meta', { name: 'keywords', content: 'OneQuick, Hotkey Tool, Hot Corner, Wheel, Keyboard, Topmost, Monitor, Keep Awake, 触发角, 热键工具, 快捷键软件, 滚轮, 键盘, 窗口置顶, 屏幕配置, 一键, 运行, 监控, 保持唤醒, AutoHotKey, AHK, uTools, WGestures, Smart Actions, Power Automate, PowerToys' }],
     ['meta', { name: 'author', content: 'xujinkai' }],
     ['script', {
       async: 'true',

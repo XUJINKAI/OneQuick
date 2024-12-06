@@ -4,7 +4,7 @@ import type { HomeData } from '../theme/MyHomeLayout.vue';
 
 export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     title: "OneQuick - 热键效率工具 - 开箱即用，符合直觉，简单高效",
-    description: "Windows热键效率工具，音量，标签页，快速搜索，便捷输入，显示器配置，热键模拟，运行命令，窗口置顶，窗口透明。。。",
+    description: "Windows热键效率工具, 触发角, 音量, 虚拟桌面, 聚合搜索, 快速搜索, 便捷输入, 显示器配置, 热键模拟, 运行命令, 窗口置顶, 窗口透明, 屏幕键盘, 保持唤醒",
     themeConfig: {
         outline: {
             label: '页面导航',
