@@ -42,7 +42,8 @@ Current Status: OneQuick 10 is still being actively updated.
 |      **Usage**       |                     |                           |
 |    Commercial Use    |         ✔️          |            ✔️             |
 
-> \* Unlimited quantity is represented by ✔️.
+* Unlimited quantity is represented by ✔️.
+* If you decide to switch from the subscription version to the lifetime license, remember to cancel the auto-renewal of the subscription version to avoid being charged twice.
 
 ## FAQs
 
