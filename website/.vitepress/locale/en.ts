@@ -21,6 +21,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
                 items: [
                     { text: 'Welcome', link: '/en/start' },
                     { text: 'Pro Version', link: '/en/pro' },
+                    { text: 'Change Log', link: '/en/change-log' },
                     { text: 'Support', link: '/en/support' },
                 ],
             },
@@ -45,7 +46,6 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             {
                 text: 'Links',
                 items: [
-                    { text: 'Change Log', link: '/change-log' },
                     { text: 'Privacy Policy', link: '/privacy-policy' },
                 ],
             },
@@ -66,7 +66,7 @@ export const homeData: HomeData = {
             image_src: '/en-ws-dl.svg',
             image_width: 200,
             alt: [
-                { text: 'Change-Log (CN)', url: '/change-log' },
+                { text: 'Change-Log', url: '/en/change-log' },
             ]
         },
     },
