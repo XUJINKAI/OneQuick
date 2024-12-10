@@ -10,6 +10,8 @@ In the Settings -> License page, click the item you want to purchase.
 
 If license not updated, please wait for a minute, click refresh button, or restart the program.
 
+If you decide to switch from the subscription version to the lifetime license, remember to cancel the auto-renewal of the subscription version to avoid being charged twice.
+
 ## Feature List
 
 Current Pricing: Subscription version is $4.99 per year, OneQuick 10 lifetime license is $19.99.
@@ -43,7 +45,6 @@ Current Status: OneQuick 10 is still being actively updated.
 |    Commercial Use    |         ✔️          |            ✔️             |
 
 * Unlimited quantity is represented by ✔️.
-* If you decide to switch from the subscription version to the lifetime license, remember to cancel the auto-renewal of the subscription version to avoid being charged twice.
 
 ## FAQs
 
