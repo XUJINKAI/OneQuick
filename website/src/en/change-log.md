@@ -27,6 +27,9 @@ Note: The hot corner is a new config. If you use the sync config feature, you ne
 - Update to dotnet 9
 - Fix some bugs
 
+### 10.4.1 (2024/12/12)
+- Update Application ICON🌟
+
 ## 0.1.0 (2016/4/20) 
 
 AHK prototype version released.
