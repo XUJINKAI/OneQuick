@@ -13,7 +13,7 @@ export default defineConfig({
     hostname: 'https://onequick.org',
   },
   head: [
-    ['link', { rel: 'icon', href: '/logo.svg' }],
+    ['link', { rel: 'icon', type: "image/svg+xml", href: '/favicon.svg' }],
     ['meta', { name: 'keywords', content: 'OneQuick, Hotkey Tool, Hot Corner, Wheel, Keyboard, Topmost, Monitor, Keep Awake, 触发角, 热键工具, 快捷键软件, 滚轮, 键盘, 窗口置顶, 屏幕配置, 一键, 运行, 监控, 保持唤醒, AutoHotKey, AHK, uTools, WGestures, Smart Actions, Power Automate, PowerToys' }],
     ['meta', { name: 'author', content: 'xujinkai' }],
     ['script', {
@@ -46,7 +46,6 @@ export default defineConfig({
     pageData.frontmatter.head.push(['meta', { property: 'og:description', content: locale.description }]);
     pageData.frontmatter.head.push(['meta', { property: 'og:type', content: 'website' }]);
     pageData.frontmatter.head.push(['meta', { property: 'og:url', content: canonicalUrl }]);
-    // pageData.frontmatter.head.push(['meta', { property: 'og:image', content: 'https://onequick.org/logo.svg' }]);
     pageData.frontmatter.head.push(['meta', { property: 'og:locale', content: lang }]);
   },
   locales: {
@@ -63,7 +62,7 @@ export default defineConfig({
   },
   appearance: false,
   themeConfig: {
-    logo: '/logo.svg',
+    logo: '/favicon.svg',
     siteTitle: 'OneQuick',
     socialLinks: [
       { icon: 'github', link: common.url_github_issues },
