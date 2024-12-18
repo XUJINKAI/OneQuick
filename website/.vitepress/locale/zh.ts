@@ -60,7 +60,7 @@ export const homeData: HomeData = {
             text: 'OneQuick',
             suffix: '热键工具',
         },
-        description: '不止于热键',
+        description: '完善Windows使用体验',
         tagline: '开箱即用，符合直觉，简单高效',
         actions: {
             url: common.url_msstore(false, 'zh-cn', 'CN'),
@@ -74,75 +74,66 @@ export const homeData: HomeData = {
     },
     features: [
         {
-            title: '如何最快的修改音量？',
+            title: '扩展鼠标在屏幕边缘的能力',
             content: [
-                '看电影时，玩游戏时，工作汇报时，被突然的声音吓一跳？如何快速修改音量？',
+                '无需再去托盘区瞄准音量图标，通过OneQuick，只需要：',
                 {
-                    text: '把鼠标移动到屏幕左上角，滚动滚轮就行，按下则静音。',
+                    text: '把鼠标移动到屏幕左上角，滚动滚轮，即可调整音量。',
                     emphasis: true,
                 },
-                '通过OneQuick，鼠标在各个屏幕边缘的功能，都可以定制。',
+                '屏幕的四条边和四个角都可定义，切换标签页、虚拟桌面、切歌...等等操作都可通过鼠标快速做到。',
             ],
             image: {
                 src: '/feature/screen-volume.gif',
             },
         },
         {
-            title: '如何快速搜索一段文本？',
+            title: '连接复制文字的后续动作',
             content: [
-                '以前：选中文字后，复制文字，打开浏览器中想搜索的网站，在搜索框中粘贴，最后回车...',
+                '复制文字后，无论是想搜索、翻译、转码...，只需要：',
                 {
-                    text: '现在：选中文字后，复制两次（Ctrl-C-C），再按一个键，直达搜索结果',
+                    text: '复制两次（Ctrl-C-C），再按一个键，直达结果。',
                     emphasis: true,
                 },
-                'OneQuick内置了各个常用的网站。通过搭配不同的网址，你还可以把文字转为二维码，或进行更多操作。',
+                'OneQuick内置了各个常用的网站，方便您快速配置。',
             ],
             image: {
                 src: '/feature/copy-search-3-cn.gif',
             },
         },
         {
-            title: '如何快速的输入一段文字？',
+            title: '强大的自定义热键功能',
             content: [
-                '邮箱，地址，客服话术，专业术语，AI提示语，当前时间戳...重复的东西，很烦。',
-                {
-                    text: 'OneQuick可以帮助你减少重复劳动。',
-                    emphasis: true,
-                },
-                '还有配置同步功能帮助你在多台电脑间无缝切换。',
+                'OneQuick内置了丰富的动作列表，您可以轻松实现：',
+                { text: '修改程序的按键映射、', emphasis: true },
+                { text: '快速运行一段命令、', emphasis: true },
+                { text: '窗口置顶、窗口透明、打开程序位置、', emphasis: true },
+                { text: '保持系统唤醒、关闭显示器、锁定、睡眠...', emphasis: true },
+                '无论是摸鱼、工作、游戏，均可满足您的需求。',
             ],
             image: {
-                src: '/feature/phrase-replace-cn.gif',
+                src: '/shot/cn-hotkey.png',
             },
         },
         {
-            title: '每次切换外接屏都要去设置里点半天？',
+            title: '快速切换显示器配置',
             content: [
-                '工作，游戏的屏幕设置不同，Win+P不够用了，如何快速切换？',
-                {
-                    text: 'OneQuick可以记住当前屏幕配置，需要的时候一键切换。',
-                    emphasis: true,
-                },
+                '不同的工作内容、游戏的屏幕设置各不相同，OneQuick可以免去重复的设置工作。',
+                'OneQuick可以记住显示器的相对位置、分辨率、刷新率等设置，一键切换。',
             ],
             image: {
                 src: '/shot/cn-display.png',
             },
         },
         {
-            title: '如何...',
+            title: '更多实用工具...',
             content: [
-                '想置顶当前窗口，好搭配其他窗口工作...',
-                '想将浏览器变为半透明然后摸鱼...',
-                '想找到当前程序的exe位置在哪里...',
-                '想修改游戏的键位...',
-                '想快速运行命令...',
-                {
-                    text: '在OneQuick中，都可以方便的做到。',
-                    emphasis: true,
-                },
+                '短语替换功能可以快速输入文字，你可以通过他输入邮箱，地址，客服话术，专业术语，AI提示语，当前时间戳等等...',
+                '输入监控可以显示鼠标和键盘的按键历史，可以用作屏幕键盘显示，作为程序员也可以观察按键注入情况...',
+                '当你需要与热键相关的功能时，不妨来试试OneQuick。',
             ],
             image: {
-                src: '/shot/cn-hotkey.png',
+                src: '/feature/phrase-replace-cn.gif',
             },
         },
     ],
