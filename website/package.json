@@ -1,10 +1,10 @@
 {
   "type": "module",
   "devDependencies": {
-    "vitepress": "^1.4.0"
+    "vitepress": "^1.6.4"
   },
   "scripts": {
-    "dev": "vitepress dev --port 80",
+    "dev": "vitepress dev --port 8080",
     "build": "vitepress build",
     "preview": "vitepress preview"
   },

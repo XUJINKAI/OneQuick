@@ -72,7 +72,7 @@ export default defineConfig({
       next: false,
     },
     footer: {
-      copyright: 'Copyright © 2016-2024 OneQuick.org'
+      copyright: 'Copyright © 2016-2026 OneQuick.org'
     },
   },
 })
