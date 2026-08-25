@@ -7,15 +7,19 @@ outline: false
 
 ![](/resellers/lizhi.png){ .lizhi }
 
-We, OneQuick
-authorizes **DIGITALYCHEE TECHNOLOGY CO, LTD** as our official partner in China,
-and it owns the right to sell the copyrighted software of us on their stores: digitalychee.taobao.com / lizhi.shop
+**OneQuick 授权「数码荔枝」为大中国区官方合作伙伴**  
+We authorize DIGITALYCHEE as our official partner in China
 
-Please don't purchase our product(s) from any other unauthorized websites.
-Customers who purchase from them are not allowed to enjoy the official customer support, including license retrieval, version update, tech assistance.
+**负责以下软件在中国的销售事宜**  
+Responsible for the sales of the following product(s)  
+**OneQuick**
+
+**该合作伙伴的销售渠道**  
+Authorized Sales Channels  
+[lizhi.shop](lizhi.shop) / [digitalychee.taobao.com](digitalychee.taobao.com)
 
 <style>
 .lizhi {
-    max-height: 150px;
+    max-height: 200px;
 }
 </style>
