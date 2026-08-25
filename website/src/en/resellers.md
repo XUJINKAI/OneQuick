@@ -16,7 +16,7 @@ Responsible for the sales of the following product(s)
 
 **该合作伙伴的销售渠道**  
 Authorized Sales Channels  
-[lizhi.shop](lizhi.shop) / [digitalychee.taobao.com](digitalychee.taobao.com)
+[lizhi.shop](https://lizhi.shop) / [digitalychee.taobao.com](https://digitalychee.taobao.com)
 
 <style>
 .lizhi {
